@@ -1,16 +1,15 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import HomeScreen from './Pages/HomeScreen';
-// import logo from './logo.svg';
-import Routing from './Router/routing';
+import { BrowserRouter, useRoutes } from "react-router-dom";
+import HomeScreen from "./Pages/Home/index";
+const AppRoutes = () => {
+  let routes = useRoutes([{ path: "/", element: <HomeScreen /> }]);
+  return routes;
+};
 
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route exact path="/" element={<HomeScreen />} />
-      </Routes>
+      <AppRoutes />
     </BrowserRouter>
-
   );
 }
 

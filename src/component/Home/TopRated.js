@@ -17,7 +17,6 @@ const TopRated = () => {
             <div className=" mt-10">
                 <Swiper
                     // direction="vertical"
-                    slidePreView={1}
                     loop={true}
                     speed={1000}
                     modules={[Navigation, Autoplay]}
