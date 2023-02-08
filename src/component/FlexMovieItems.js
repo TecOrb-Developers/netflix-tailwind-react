@@ -1,5 +1,7 @@
 import { FaRegCalendarAlt } from "react-icons/fa";
 import { BiTime } from "react-icons/bi";
+import PropTypes from "prop-types";
+
 const FlexMovieItems = ({ movie }) => {
   return (
     <>
@@ -16,5 +18,8 @@ const FlexMovieItems = ({ movie }) => {
       </div>
     </>
   );
+};
+FlexMovieItems.propTypes = {
+  movie: PropTypes.any,
 };
 export default FlexMovieItems;

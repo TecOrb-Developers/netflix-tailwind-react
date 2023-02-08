@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { FaHeart } from "react-icons/fa";
+import PropTypes from "prop-types";
 
 const Movie = ({ movie }) => {
   return (
@@ -19,5 +20,8 @@ const Movie = ({ movie }) => {
       </div>
     </div>
   );
+};
+Movie.propTypes = {
+  movie: PropTypes.any,
 };
 export default Movie;

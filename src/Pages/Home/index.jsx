@@ -4,7 +4,7 @@ import PopularMovies from "../../Component/Home/PopularMovies";
 import Promos from "../../Component/Home/Promo";
 import TopRated from "../../Component/Home/TopRated";
 import TvShows from "../../Component/Home/TvShows";
-import Layout from "../../Loyout";
+import Layout from "../../Layout";
 const HomeScreen = () => {
   return (
     <Layout>
