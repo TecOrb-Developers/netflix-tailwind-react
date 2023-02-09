@@ -5,7 +5,7 @@ import BannerCard from "../SubComponent/Cards/BannerCard";
 
 const Banner = ({ moviesData }) => {
   return (
-    <div className="relative w-full">
+    <div id="bannerss" className=" sss relative w-full">
       <BannerSwiperSlide>
         {moviesData.slice(0, 6).map((movie, index) => {
           return (
