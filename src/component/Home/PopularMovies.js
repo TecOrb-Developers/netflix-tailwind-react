@@ -7,7 +7,7 @@ import MovieCard from "../SubComponent/Cards/MovieCard";
 
 const PopularMovies = ({ moviesData }) => {
   return (
-    <div className="my-16">
+    <div className="popular my-16">
       <Titles title="Popular Movie" Icon={BsCollectionFill} />
       <div className="w-full mt-6 ">
         <CommonSwiperSlide navigation={false} direction="horizontal">

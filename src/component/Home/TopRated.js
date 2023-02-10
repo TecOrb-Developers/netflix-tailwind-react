@@ -16,7 +16,7 @@ const TopRated = ({ moviesData }) => {
   const classNames =
     "hover:bg-dry transition text-sm rounded w-8 h-8 flex-colo bg-subMain text-white";
   return (
-    <div className="my-16">
+    <div className="my-16 topRated">
       <Titles title="Popular Movie" Icon={BsCollectionFill} />
       <div className=" mt-10">
         <CommonSwiperSlide
